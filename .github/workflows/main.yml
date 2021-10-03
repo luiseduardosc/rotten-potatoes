@@ -46,4 +46,4 @@ jobs:
         with: 
           images: luiseduardosc/rotten-potatoes:${{ github.run_number }} 
           manifests: |
-            k8s/deployment.yaml
+            K8s/deployment.yaml
